@@ -32,7 +32,7 @@ nav button {
   background: transparent;
 }
 
-#content{
+#home{
   color:white;
   display: flex;
   flex-direction: column;
@@ -42,3 +42,28 @@ nav button {
   margin: 20px;
 }
 p{text-align: center;}
+
+
+#menu-content {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  color:white;
+}
+
+.dish {
+  margin: 20px 0;
+  margin: 40px;
+}
+
+.dish h2 {
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.dish p {
+  color: white;
+  margin: 20px;
+  font-size: 1em;
+  /* color: #555; */
+}
