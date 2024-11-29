@@ -67,3 +67,22 @@ p{text-align: center;}
   font-size: 1em;
   /* color: #555; */
 }
+#about-content {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  line-height: 1.6;
+  color: white;
+}
+
+#about-content h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#about-content p {
+  margin: 10px 0;
+
+  color: #eee;
+  font-size: 1.4rem;
+}

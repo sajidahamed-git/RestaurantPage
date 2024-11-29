@@ -1,5 +1,6 @@
 import restaurantImg from "./assets/restaurant.jpg";
 export const renderHome = (function () {
+  
   const main = document.querySelector(".main");
   main.replaceChildren();
   const DivContainer = document.createElement("div");
