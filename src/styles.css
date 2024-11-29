@@ -25,15 +25,19 @@ nav {
 }
 
 nav button {
-  color: #eee;
+  color: hsla(0, 0%, 99%, 0.507);
   font-size: 1.5rem;
   border: none;
   cursor: pointer;
   background: transparent;
+  padding-bottom: 5px;
+}
+nav button:hover {
+  color: hsl(0, 11%, 95%);
 }
 
-#home{
-  color:white;
+#home {
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,14 +45,15 @@ nav button {
   gap: 2rem;
   margin: 20px;
 }
-p{text-align: center;}
-
+p {
+  text-align: center;
+}
 
 #menu-content {
   text-align: center;
   margin: 20px auto;
   max-width: 600px;
-  color:white;
+  color: white;
 }
 
 .dish {
@@ -85,4 +90,14 @@ p{text-align: center;}
 
   color: #eee;
   font-size: 1.4rem;
+}
+
+.highlightbtn {
+  color: #ffffff; /* Bright text color */
+  background-color: #ff6347; /* Tomato background for highlight */
+  border: none;
+  padding: 8px 16px; /* Add some padding for a button-like look */
+  border-radius: 4px; /* Smooth rounded corners */
+  font-weight: bold; /* Bold text to emphasize the active tab */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }

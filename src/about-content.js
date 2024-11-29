@@ -1,7 +1,14 @@
- export function renderAbout() {
+export function renderAbout() {
+  const home = document.querySelector(".homebtn");
+  const menu = document.querySelector(".menubtn");
+  const about = document.querySelector(".aboutbtn");
 
-    const main  = document.querySelector('.main')
-    main.replaceChildren()
+  home.classList.remove("highlightbtn");
+  about.classList.add("highlightbtn");
+  menu.classList.remove("highlightbtn");
+
+  const main = document.querySelector(".main");
+  main.replaceChildren();
   const aboutContainer = document.createElement("div");
   aboutContainer.id = "about-content";
 
@@ -27,5 +34,5 @@
   aboutContainer.appendChild(p3);
 
   // Append to body or a specific parent container
-  main.appendChild(aboutContainer)
+  main.appendChild(aboutContainer);
 }

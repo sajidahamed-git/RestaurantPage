@@ -3,11 +3,9 @@ import { renderHome } from "./home";
 import { renderMenu } from "./menu";
 import { renderAbout } from "./about-content";
 
-// console.log('test');
-const home = document.querySelector(".home");
-const menu = document.querySelector(".menu");
-const about = document.querySelector(".about");
-console.log(home);
+const home = document.querySelector(".homebtn ");
+const menu = document.querySelector(".menubtn");
+const about = document.querySelector(".aboutbtn");
 document.addEventListener('DOMContentLoaded',renderHome)
 
 home.addEventListener("click", renderHome);
